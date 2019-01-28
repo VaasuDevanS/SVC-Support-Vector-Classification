@@ -11,7 +11,6 @@ __info__   = "UNB GGE - BigData and DataScience Assignment-2"
 # Step2 - Import the libraries and classes
 from sklearn import svm, model_selection as ms
 from sklearn.metrics import *
-from datetime import datetime
 from sys import argv as arg
 import pandas as pd
 
@@ -52,7 +51,7 @@ predicted = clf.predict(test)
 accuracy = accuracy_score(Ctest, predicted)
 report = classification_report(Ctest,
                                predicted,
-                               target_names=['Occupied','Free'])
+                               target_names=['Occupied', 'Free'])
 ConfusionMatrix = confusion_matrix(Ctest, predicted)
 
 
