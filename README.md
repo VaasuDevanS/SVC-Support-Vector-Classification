@@ -4,7 +4,7 @@ Python script to predict Occupancy using SVM in [sklearn](https://scikit-learn.o
 **Note:**  
 This script uses 60% Training and 40% testing of the data file.  
 Random seed used in model_selection.train_test_split is *100.*  
-Tested in python: 3.5, Pandas: 0.23.4, scikit-learn: 0.20.2
+Tested in python: 3.5, Pandas: 0.23.4, scikit-learn: 0.20.2  
 License: *GNU-GPL*
 
 **Installing Dependencies**
