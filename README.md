@@ -1,7 +1,7 @@
 # Support Vector Classification
 Python script to predict Occupancy using SVM in [sklearn](https://scikit-learn.org/stable/modules/svm.html) library.
 
-**Note:**
+**Note:**  
 This script uses _60% Training_ and _40% testing_ of the data file.  
 Random seed used in _train_test_split_ is 100.  
 Tested in *python: 3.5, Pandas: 0.23.4, scikit-learn: 0.20.2*  
