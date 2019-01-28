@@ -48,10 +48,9 @@ predicted = clf.predict(test)
 
 
 # Step10 - Accuracy report
+names = ["Occupied", "Free"]
 accuracy = accuracy_score(Ctest, predicted)
-report = classification_report(Ctest,
-                               predicted,
-                               target_names=['Occupied', 'Free'])
+report = classification_report(Ctest, predicted, target_names=names)
 ConfusionMatrix = confusion_matrix(Ctest, predicted)
 
 
